@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav id="nav">
+        <h1>Stopwatch</h1>
+    </nav>
+    <section id="timer-display" class="flex justify-center align-center">
+        <!-- section containing the stopwatch -->
+        <div>
+            <p class="timer-text">Hours</p>
+            <!-- serves as container for timer digits -->
+            <div class="container">
+
+                <div class="prev" id="prev-hr">00</div>
+                <div class="next" id="next-hr">00</div>
+            </div>
+        </div>
+        <span class="separator">:</span>
+        <div>
+            <p class="timer-text">Minutes</p>
+            <div class="container">
+                <div class="prev" id="prev-min">00</div>
+                <div class="next" id="next-min">00</div>
+            </div>
+        </div>
+
+        <span class="separator">:</span>
+        <div>
+            <p class="timer-text">Seconds</p>
+            <div class="container">
+
+                <div class="prev" id="prev-sec">00</div>
+                <div class="next" id="next-sec">00</div>
+            </div>
+        </div>
+        <span class="separator " id="red-separator">:</span>
+        <div>
+            <p class="timer-text">Milli-Secs</p>
+            <div class="container">
+                <div class="prev" id="prev-milliSec">00</div>
+                <div class="next" id="next-milliSec">00</div>
+            </div>
+        </div>
+
+    </section>
+
+
+    </div>
+    <!-- controls section -->
+    <section id="controls" class="flex justify-center">
+        <button id="start">Start</button>
+        <button id="lap">Lap</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </section>
+    <!-- Display section -->
+    <section id="display-results">
+        <h2>Results</h2>
+        <ul id="result-list" class="flex flex-col justify-center">
+
+        </ul>
+
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
