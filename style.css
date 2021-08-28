@@ -47,7 +47,7 @@ button
     
     outline: none;
     border:none;
-    padding: 5px 10px;
+    padding: 5px 6px;
     font-size:20px;
     margin: 1vw 1vw ;
     border-radius: 5px;
@@ -266,7 +266,7 @@ section#controls
 {
     button{
         
-        padding: 10px 40px;
+        padding: 10px 30px;
         font-size:35px;
         margin: 2vw 3vw ;
         border-radius:  20px;
